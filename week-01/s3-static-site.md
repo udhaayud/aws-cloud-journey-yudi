@@ -1,3 +1,2 @@
 # S3 Static Website
-Documenting steps for S3 static website setup...
-
+Dokumentasi proses setup static website menggunakan S3 akan ditulis di sini.

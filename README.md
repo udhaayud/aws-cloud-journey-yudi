@@ -1,3 +1,3 @@
 # cloud-journey-yudi
-Repository for tracking my 90‑day journey to become a Cloud Engineer (focused on AWS, Terraform, CI/CD, and monitoring automation).
+Repository untuk mendokumentasikan perjalanan saya menjadi Cloud Engineer dalam 90 hari (AWS, Terraform, CI/CD, monitoring, automation).
 
