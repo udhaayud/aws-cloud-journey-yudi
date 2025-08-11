@@ -9,5 +9,17 @@
 6. COnfigure Security Group, check allow SSH and allow HTTP
 7. launch instance.
 
+## EC2 Deployment using AWS CLI
+1. login to AWS console
+2. create EC2 instance with this command
+	    aws ec2 run-instances \
+      		--image-id ami-0061376a80017c383 \							--> image id for Amazon Linux
+     		--instance-type t2.micro \								--> instance type based on region, in this case ap-southeast-1
+      		--key-name aug_key \									--> keypair name, same as keypair that you already have before
+      		--security-group-ids sg-0cb7bce85fe8d3b5e \						--> security group id, same as security that you already have before
+      		--subnet-id subnet-0f7b102a788e00e6b \
+      		--count 1 \										--> the amount of instance that you will create, it's up to you
+3. enter, and your instance will be launch.
+
 ## Screenshot
 you can check the screenshot 'week-1/screenshots/ec2-deploy'
