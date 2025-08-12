@@ -1,4 +1,4 @@
-# cloud-journey-yudi
+# aws-cloud-journey-yudi
 Repository to documented my journey become Cloud Engineer in 90 days (AWS, Terraform, CI/CD, monitoring, automation).
 
 # Week 01 Progress – AWS Basics + CLI (7–14 August 2025)
