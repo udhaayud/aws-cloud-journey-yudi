@@ -11,7 +11,7 @@
 7. in the bucket permission tab, add "bucket policy" that grants public read access to the objects inb the bucket.
 8. now you can access your S3 bucket on the browser.
 
-##step-by-step using AWS CLI
+## Step-by-step using AWS CLI
 1. AWWS Configure
 2. create S3 bucket with this command (it follow the default region, when you run the aws configure
 
