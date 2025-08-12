@@ -19,7 +19,7 @@
     //image id for Amazon Linux
 
     --instance-type t2.micro \
-    //instance type based on region, in this case ap-southeast-1
+    //the desired instance type (e.g., t2,micro, m5.large)
 
     --key-name aug_key\
     //keypair name, same as keypair that you already have before
@@ -28,6 +28,7 @@
     //security group id, same as security that you already have before
 
     --subnet-id subnet-0f7b102a788e00e6b \
+    //the ID of the subnet within your VPC where you want to launch the instance
 
     --count 1 \
     //the amount of instance that you will create, it's up to you
@@ -36,4 +37,4 @@
 3. enter, and your instance will be launch.
 
 ## Screenshot
-you can check the screenshot 'week-1/screenshots/ec2-deploy'
+you can check the screenshot 'week-1/screenshots'
